@@ -17,9 +17,7 @@ Route::get('/', function () {
 Route::get('/hello', function () {
     return view('post');
 });
-Route::get('/home', function () {
-    return view('home');
-});
+
 
 Auth::routes();
 
